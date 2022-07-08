@@ -1,18 +1,9 @@
-import Head from "next/head";
+import Layout from "@components/Layout";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>home</title>
-      </Head>
-      <div>
-        <header>header ini</header>
-        <main>konten</main>
-      </div>
-      <footer>
-        footer
-      </footer>
-    </>
+    <Layout title="Home">
+      asdad
+    </Layout>
   )
 }
