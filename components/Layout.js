@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Footer from './Footer'
+import Header from './Header'
 
 export default function Layout(props) {
   return (
@@ -7,14 +9,12 @@ export default function Layout(props) {
         <title>{props.title}</title>
       </Head>
       <div>
-        <header>header ini</header>
+        <Header />
         <main>
           {props.children}
         </main>
       </div>
-      <footer>
-        footer
-      </footer>
+      <Footer />
     </>
   )
 }
