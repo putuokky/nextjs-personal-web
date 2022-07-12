@@ -6,9 +6,9 @@ export default function Layout(props) {
   return (
     <>
       <Head>
-        <title>{props.title}</title>
+        <title>My Personal Portfolio Sites</title>
       </Head>
-      <div>
+      <div className='container mx-auto'>
         <Header />
         <main>
           {props.children}

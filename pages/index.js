@@ -1,13 +1,17 @@
+import About from "@components/About";
+import Contact from "@components/Contact";
+import Experience from "@components/Experience";
 import Layout from "@components/Layout";
+import Portfolio from "@components/Portfolio";
 
 export default function Home() {
   return (
-    <Layout title="Home &mdash; My Personal Sites">
+    <Layout>
       <section>home</section>
-      <section>about</section>
-      <section>experience</section>
-      <section>portfolio</section>
-      <section>contact</section>
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
     </Layout>
   )
 }
