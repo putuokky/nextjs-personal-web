@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
+import Nav from './Nav'
 
 export default function Layout(props) {
   return (
@@ -10,6 +11,7 @@ export default function Layout(props) {
       </Head>
       <div className='container mx-auto'>
         <Header />
+        <Nav />
         <main>
           {props.children}
         </main>

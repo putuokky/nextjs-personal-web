@@ -7,7 +7,7 @@ import Portfolio from "@components/Portfolio";
 export default function Home() {
   return (
     <Layout>
-      <section>home</section>
+      <div className="text-light">aaa</div>
       <About />
       <Experience />
       <Portfolio />
