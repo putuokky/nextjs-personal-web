@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="h-screen pt-24 overflow-hidden">
+    <header className="md:max-h-screen h-screen overflow-hidden">
       <div className="text-center h-full relative">
         <h5>Hello I'm</h5>
         <h1>Okky Maheswara</h1>

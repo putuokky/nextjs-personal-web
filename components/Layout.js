@@ -9,7 +9,7 @@ export default function Layout(props) {
       <Head>
         <title>My Personal Portfolio Sites</title>
       </Head>
-      <div className='container mx-auto'>
+      <div className='container mx-auto pt-16'>
         <Header />
         <Nav />
         <main>
