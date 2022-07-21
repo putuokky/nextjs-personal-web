@@ -7,9 +7,16 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '1rem', /* 16px */
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
     colors: {
+      'primary': '#4db5ff',
       'light': '#ffffff99',
     },
     extend: {},
