@@ -1,5 +1,3 @@
-import React from 'react'
-// import CV from '../public/assets/cv.pdf'
 
 const CTA = () => {
   return (
