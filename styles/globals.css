@@ -44,7 +44,7 @@ h1 {
 }
 
 section {
-  @apply mt-32;
+  @apply mt-32 h-screen;
 }
 
 section>h2,
@@ -89,6 +89,21 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+nav a {
+  background: transparent;
+  @apply p-3 flex text-lg rounded-full;
+  color: var(--color-light);
+}
+
+nav a:hover {
+  @apply bg-black opacity-30;
+}
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

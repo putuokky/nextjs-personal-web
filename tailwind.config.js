@@ -15,11 +15,13 @@ module.exports = {
         '2xl': '6rem',
       },
     },
-    colors: {
-      'primary': '#4db5ff',
-      'light': '#ffffff99',
+    extend: {
+      colors: {
+        'primary': '#4db5ff',
+        'light': '#ffffff99',
+        'tema': '#1f1f38',
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
