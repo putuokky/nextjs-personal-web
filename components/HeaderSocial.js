@@ -4,7 +4,7 @@ import { BsLinkedin, BsGithub, BsDribbble } from 'react-icons/bs'
 
 export default function HeaderSocial() {
   return (
-    <div className='hidden sm:flex flex-col items-center gap-3 absolute left-0 bottom-12'>
+    <div className='hidden sm:flex flex-col items-center gap-3 absolute left-0 bottom-12 after:w-px after:h-8 after:bg-primary'>
       <Link href='https://www.linkedin.com'>
         <a target='_blank'><BsLinkedin /></a>
       </Link>
