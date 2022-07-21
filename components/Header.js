@@ -2,7 +2,7 @@ import Image from "next/image"
 import CTA from "./CTA"
 import HeaderSocial from "./HeaderSocial"
 import ME from "../public/assets/me.png";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header() {
   return (
