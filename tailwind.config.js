@@ -20,6 +20,7 @@ module.exports = {
         'primary': '#4db5ff',
         'light': '#ffffff99',
         'tema': '#1f1f38',
+        'tema-secondary': '#2c2c6c',
       },
     },
   },
