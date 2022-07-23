@@ -44,11 +44,11 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl;
+  @apply text-2xl font-semibold;
 }
 
 section {
-  @apply mt-32 h-screen;
+  @apply mt-32;
 }
 
 section>h2,
