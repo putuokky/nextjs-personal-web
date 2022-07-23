@@ -43,6 +43,10 @@ h1 {
   @apply text-4xl;
 }
 
+h2 {
+  @apply text-2xl;
+}
+
 section {
   @apply mt-32 h-screen;
 }
@@ -105,14 +109,3 @@ nav a.active {
   background: var(--color-bg);
   color: var(--color-white);
 }
-
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
-/* @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section>h2 {
-    margin-bottom: 2rem;
-  }
-} */
