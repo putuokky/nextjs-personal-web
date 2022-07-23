@@ -10,8 +10,8 @@ export default function Home() {
     <Layout>
       <About />
       <Experience />
-      <Portfolio />
       <Services />
+      <Portfolio />
       <Contact />
     </Layout>
   )
