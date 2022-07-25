@@ -15,7 +15,6 @@ export default function Header() {
         <HeaderSocial />
 
         <div className="bg-gradient-to-b from-primary to-primary/20 w-[22rem] h-[30rem] absolute left-1/2 transform -translate-x-1/2 mt-16 rounded-t-[12rem] overflow-hidden pt-20 px-6 pb-6">
-          {/* <img src={ME} alt="My Profile" /> */}
           <Image alt="My Profile" src={ME} />
         </div>
 
