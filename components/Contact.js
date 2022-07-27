@@ -3,6 +3,7 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Link from "next/link";
 
 export default function Contact() {
   const form = useRef();
@@ -29,19 +30,25 @@ export default function Contact() {
             <MdOutlineEmail className="text-2xl mb-2 mx-auto" />
             <h4 className="font-semibold">E-mail</h4>
             <h5 className="text-light">okkymahes@gmail.com</h5>
-            <a href='mailto:okkymahes@gmail.com' target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            <Link href='mailto:okkymahes@gmail.com'>
+              <a target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            </Link>
           </article>
           <article className='bg-tema-secondary p-5 rounded-2xl text-center border-[1px] border-solid border-transparent transition duration-300 ease-linear hover:bg-transparent hover:border-primary-secondary'>
             <RiMessengerLine className="text-2xl mb-2 mx-auto" />
             <h4 className="font-semibold">Messeger</h4>
             <h5 className="text-light">Okky Maheswara</h5>
-            <a href='https://m.me/okkymahes' target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            <Link href='https://m.me/okkymahes'>
+              <a target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            </Link>
           </article>
           <article className='bg-tema-secondary p-5 rounded-2xl text-center border-[1px] border-solid border-transparent transition duration-300 ease-linear hover:bg-transparent hover:border-primary-secondary'>
             <BsWhatsapp className="text-2xl mb-2 mx-auto" />
             <h4 className="font-semibold">WhatsApp</h4>
             <h5 className="text-light">+62-857-3820-9427</h5>
-            <a href='https://api.whatsapp.com/send?phone=+62-857-3820-9427' target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            <Link href='https://api.whatsapp.com/send?phone=+62-857-3820-9427'>
+              <a target='_target' className="mt-3 inline-block text-sm">Send a Message</a>
+            </Link>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-5">
